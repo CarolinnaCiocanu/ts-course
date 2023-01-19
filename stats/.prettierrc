@@ -1,0 +1,18 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "semi": true,
+    "printWidth": 120,
+    "endOfLine": "auto",
+    "embeddedLanguageFormatting": "auto",
+    "proseWrap": "never",
+    "quoteProps": "as-needed",
+
+    "overrides": [{
+        "files": ["**/*.css", "**/*.less", "**/*.html"],
+        "options": {
+            "singleQuote": false
+        }
+    }]
+}
